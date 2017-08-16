@@ -1,0 +1,58 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.root {
+    background: url(./img/space.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.wrapper-logo {
+    padding: 10px 0;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .9), rgba(0, 0, 0, .9) 80%, rgba(0, 0, 0, 0));
+}
+
+.logo {
+    height: 250px;
+}
+
+.wrapper-embed {
+    /*background: linear-gradient(to bottom, rgba(0, 0, 0, .9), rgba(0, 0, 0, .4) 30%,  rgba(0, 0, 0, .4) 70%, rgba(0, 0, 0, .9));*/
+    /*box-shadow: 0 0 50px 25px #000;*/
+}
+
+.wrapper-other {
+    padding-top: 50px;
+    color: #eee;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0),  rgba(0, 0, 0, .9) 50px, rgba(0, 0, 0, .9));
+}
+
+.embed {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.embed-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
